@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  .icon {
+    width: 16px;
+    height: 16px;
+    margin: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    img {
+      width: 10px;
+      margin: 0 3px;
+    }
+
+    svg {
+      stroke: #f58317;
+    }
+  }
+
+  .message {
+    position: absolute;
+    background: #f58317;
+    padding: 10px;
+    border-radius: 5px 5px 5px 0px;
+    left: 20px;
+    bottom: 15px;
+    display: flex;
+
+    span {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 10px;
+      color: #fff;
+      max-width: 250px;
+      width: 120px;
+      flex-wrap: wrap;
+
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+}
